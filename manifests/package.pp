@@ -4,7 +4,7 @@ class i3_wm::package {
   # apt::source { 'i3_wm':
   #   location   => 'http://debian.sur5r.net/i3/',
   #   repos      => 'universe',
-  #   key        => '4BD6EC30',
+  #   key        => 'AE8A0CF86298B4A2',
   # }
 
   package { $i3_wm::packages:
